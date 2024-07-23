@@ -1,0 +1,43 @@
+@media (min-width: 992px) {
+.sophisticatedpediatricdentistry{
+    display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 10px; /* Adjust as needed */
+          margin-top: 8%;
+  }
+  .sophisticatedpediatricdentistrycolumn{
+    padding: 10px;
+    
+  }
+
+
+
+
+.sophisticatedpediatricdentistry img{
+  width: 100%;
+}
+
+.sophisticatedpediatricdentistry h5{
+margin-top: 5%;
+}
+
+.sophisticatedpediatricdentistrycolumn img{
+  height: 380px;
+}
+
+.sophisticated-desktop-title{
+  font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 7%;
+    font-family: 'Pathway Extreme';
+    color: #12697D;
+    font-weight: 500;
+}
+}
+
+@media (max-width: 767.98px) { 
+
+.sophisticatedpediatricdentistry{
+  display:none;
+}
+}
